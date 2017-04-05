@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de registro</title>
+	<link rel="stylesheet" type="text/css" href="index_style.css">
+</head>	
+
+ <body>
+ <section id="formulario">
+	<form action="registrar.php" method="post" class="formulario-registro">
+	<figure class="header-logo">
+            <img src=" C:\Users\user\Desktop\seminario2\Seminario\logo.png" alt="Blog Logotipo">
+            <h3 class= "slogan">Encuentra compañero de habitacion facil y rapido</h3>   
+        </figure>
+	<div class= formulario>
+		   
+		   	<input type = "text" name = "nombre" placeholder="nombre" class = "campo1" required>
+		 
+		   	<input type = "text" name = "Apellido" placeholder="apellido" class = "campo2" required>
+		   
+		   	<input type = "text" name = "Usuario" placeholder="usuario" class = "campo3" required>
+		   	
+		   	<input type = "password" name = "Contraseña" placeholder="Contraseña" class = "campo4" required>
+		  
+		   	<input type = "password" name = "Confirmacion" placeholder="Confirme su Contraseña" class = "campo5" required>
+		   	
+		   	<input type = "email" name = "Email" placeholder="Correo institucional" class = "campo6" required>
+		   	
+		   	<input type = "text" name = "Cedula" placeholder="cedula" class = "campo7" required>
+		   
+		   	<input type = "text" name = "Teléfono" placeholder="teléfono" class = "campo8" required>
+		   	<select name = "sexo" required = "true" class = "campo9">
+            <option value = "">Sexo</option>
+            <option value = "Hombre">Hombre</option>
+            <option value = "Mujer">Mujer</option>
+		   	</select> 
+		   	<input type="date" name="cumpleanios" step="1" min="1917-01-01" max="2017-12-31" value="2017-13-31" class = "campo10" required>
+		   	<textarea placeholder="Acerca de ti" class = "campo11" required></textarea>
+		   	<input type="submit" value="Iniciar sesion">
+		   	<footer>
+		   	 <a href= "C:\Users\user\Desktop\seminario2\Seminario\Buscar.html" >Iniciar sesion</a>
+		   	<p class = "form-link">¿Ya tienes una cuenta? <a href="C:\Users\user\Desktop\seminario2\Seminario\index.html">Ingresa aquí</a></p>
+			</div>
+			</footer>
+</form>
+</section>
+</body>
+</html> 
